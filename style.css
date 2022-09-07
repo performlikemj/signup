@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Norse;
+    src: url('./font/Norse-Bold.otf');
+}
+
+.flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.banner img {
+    border: 1px solid blue;
+    height: 100em;
+    width: 35em;
+
+}
+
+.logo {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid black;
+    opacity: 40%;
+}
+
+.logo p {
+    font-family: Norse;
+    color: white;
+    font-size: large;
+}
+
+
+.call-to-action, .account { 
+    background-color: rgb(241, 241, 241);
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.last-p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
