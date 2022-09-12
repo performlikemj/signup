@@ -10,48 +10,60 @@
 <body>
     <div class="flex-container">
         <!-- Section for banner and logo -->
-        <div class="logo">
-            <img src="./images/odin-lined.png" alt="Oden program logo">
-            <p>ODIN</p>
-        </div>
-        <div class="banner">
-            <img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="Banner Image, a green plant">
+        <div class="left-section">
+            <div class="media">
+                <div class="oden-image"><img src="./images/odin-lined.png" alt="Oden program logo"></div>
+                <p>ODIN</p>
+            </div>
+            <div class="banner">
+                <div class="image"><img src="./images/halie-west-25xggax4bSA-unsplash.jpg" alt="Banner Image, a green plant"></div>
+            </div>
+            <p class="recognition">Photo by &nbsp;<a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a>  &nbsp;on &nbsp;<a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
         </div>
         <div class="right-section">
-            <div class="call-to-action">
+            <div class="section call-to-action">
                 <p>This is not a real online service! You know you need something like this in your life 
                     to help you realize your deepest dreams.</p>
                 <p>Sign up now to get started.</p>
                 <p class="last-p">You know you want to.</p>
             </div>
             <!-- Form section -->
-            <div>
+            <div class="section form-section">
                 <form action="#" method="post">
                     <p class="form-p">Let's do this!</p>
-                    <label for="first-name">First Name</label>
-                    <input type="text" name="first-name" id="first-name">
-                    <label for="last-name">Last Name</label>
-                    <input type="text" name="last-name" id="last-name">
+                    <div class="wrapper">
+                        <label for="first-name">First Name</label>
+                        <input type="text" name="first-name" id="first-name">
+                    </div>
+                    <div class="wrapper">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" name="last-name" id="last-name">
+                    </div>
     
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
+                    <div class="wrapper">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
     
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password">
-                    <label>Confirm Password</label>
-                    <input type="password" name="confirm-password" id="confirm-password">
+                    <div class="wrapper">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="wrapper">
+                        <label>Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password">
+                    </div>
 
                 </form>
             </div>
             <!-- Submit and account creation section  -->
-            <div class="account">
+            <div class="section account">
                 <button type="submit">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </div>
         </div>
         <!-- Call to action section -->
 
-        <!-- Photo by <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
     </div>
 </body>
 </html>
