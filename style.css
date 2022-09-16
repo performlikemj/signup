@@ -81,10 +81,41 @@ body {
     background-color: rgb(228, 225, 225);
     padding-top: 80px;
     padding-bottom: 50px;
-
     height: 100px;
     font-weight: bold;
 }
+
+     /* Input section */
+
+.form-section {
+    width: 100%;
+}     
+    
+
+form {
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-section p {
+    font-weight: bold;
+    font-size: larger;
+    padding-right: 400px;
+    flex-basis: 300px;
+} 
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding-right: 100px;
+}
+
+
+
+     /* End Input section */
 
 .form-section {
     flex-wrap: wrap;
