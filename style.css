@@ -96,4 +96,17 @@ body {
     background-color: rgb(228, 225, 225);
     box-shadow: inset 0px 2px 8px rgb(114, 113, 113); /* Box shadow property to blur border */
 }
+
+.btn {
+    border-radius: 6px;
+    background-color: rgb(36, 78, 36);
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+.account a:link {
+    text-decoration: none;
+    color: rgb(36, 78, 36);
+}
 /* End Right section */
