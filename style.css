@@ -111,6 +111,7 @@ form {
     flex-direction: column;
     width: 200px;
     padding-right: 100px;
+    padding-bottom: 20px;
 }
 
 
@@ -135,6 +136,11 @@ form {
     border: none;
     color: white;
     padding: 10px 30px 10px 30px;
+}
+
+input {
+    border-radius: 4px;
+    
 }
 
 input:focus {
