@@ -25,7 +25,7 @@ body {
     object-fit: cover;
 }
 
-.oden-image > img {
+.odin-image > img {
     width: 8vw;
     height: 10vh;
     object-fit: contain;
