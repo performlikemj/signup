@@ -114,7 +114,16 @@ form {
     padding-bottom: 20px;
 }
 
+input {
+    border-radius: 4px;
+    height: 20px;
+    border-width: 1px;
+    
+}
 
+input:focus {
+    border: blue;
+}
 
      /* End Input section */
 
@@ -136,17 +145,6 @@ form {
     border: none;
     color: white;
     padding: 10px 30px 10px 30px;
-}
-
-input {
-    border-radius: 4px;
-    height: 20px;
-    border-width: 1px;
-    
-}
-
-input:focus {
-    border: blue;
 }
 
 .account a:link {
