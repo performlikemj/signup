@@ -6,6 +6,8 @@ para.style.color = 'red';
 // Compare the password fields function and add red border and text
 function compare(str1, str2) {
     if (para.parentNode === null && str1 != str2) {
+        const passwordFields = document.querySelectorAll('input[type=password]');
+        passwordFields.forEach(passwordField => passwordField.style.borderColor = 'red');
         const passwordWrapper = document.querySelector('form');
         passwordWrapper.appendChild(para);
     }
