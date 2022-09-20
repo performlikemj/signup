@@ -25,4 +25,21 @@ function compare(str1, str2) {
     // }
 }
 
+let str1 = '';
+let str2 = '';
 
+function concatPass1(e) {
+    console.log(e);
+    str1 += e.key;
+    compare(str1, str2);
+}
+
+function concatPass2(e) {
+    str2 += e.key;
+    compare(str1, str2);
+}
+
+const passwordInput = document.querySelector('input[name=password]');
+const confirmPasswordInput = document.querySelector('input[name=confirm-password]');
+passwordInput.addEventListener('keyup', concatPass1);
+confirmPasswordInput.addEventListener('keyup', concatPass2);
